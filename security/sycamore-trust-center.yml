@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: searched
+source: https://trust.sycamore.so
+probe: false
+url: https://trust.sycamore.so
+title: Sycamore Labs Trust Center
+status: 200
+certifications: []
+notes: >-
+  A hosted Trust Center is live at trust.sycamore.so (HTTP 200). Its content is
+  rendered client-side (JavaScript trust-center app) and exposes no named
+  certifications (SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP) in server-returned
+  HTML at probe time. No Compliance pointer is emitted since no certification is
+  verifiably published; recorded as a link-only TrustCenter surface. Re-probe on
+  a later run once certifications are published.

@@ -1,0 +1,21 @@
+{
+  "repo": "sycamore",
+  "feeds": [
+    {
+      "source": "https://sycamore.so/rss.xml",
+      "feed_url": "https://sycamore.so/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://sycamore.so/about/",
+      "feed_url": "https://sycamore.so/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 1,
+  "fetched": "2026-08-01T15:49:00Z"
+}

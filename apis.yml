@@ -1,24 +1,93 @@
 aid: sycamore
 name: Sycamore
-description: Sycamore is a company surfaced as a portfolio company of lightspeed-venture-partners, matrix-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Sycamore (Sycamore Labs, Inc.) is a Palo Alto, California company building a
+  "trusted agent operating system for the enterprise" — a platform for large
+  organizations to build, deploy, and orchestrate autonomous AI agents across
+  their existing systems with enterprise-grade security, human oversight, and
+  organizational intelligence that compounds over time. Its stated pillars are a
+  progressive trust system where agents earn autonomy through demonstrated
+  reliability, adaptive system generation from natural language, continuous
+  learning from outcomes, and collective multi-agent coordination. The company
+  emerged from stealth in March 2026 with a $65M seed round led by Coatue and
+  Lightspeed. As of this profile Sycamore is pre-product with no public developer
+  API, SDK, or documentation surface; this repo captures its public company
+  identity, security posture, and machine-readable llms.txt.
 url: https://raw.githubusercontent.com/api-evangelist/sycamore/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://sycamore.so/apple-touch-icon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
-- matrix-partners
+- coatue
+x-investors:
+- Coatue
+- Lightspeed Venture Partners
+- Abstract Ventures
+- Dell Technologies Capital
+- 8VC
+- Fellows Fund
+- E14 Fund
+x-funding: $65M seed (March 2026)
+x-headquarters: Palo Alto, CA
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Agent Operating System
+- Enterprise Software
+- Agent Governance
+- Autonomous Agents
+- Enterprise AI
 apis: []
+common:
+- type: Website
+  url: https://sycamore.so
+- type: About
+  url: https://sycamore.so/about/
+- type: Blog
+  url: https://sycamore.so/blog/
+- type: LLMsTxt
+  url: llms/sycamore-llms.txt
+- type: StatusPage
+  url: https://sycamore.so/status/
+- type: TrustCenter
+  url: https://trust.sycamore.so
+- type: VulnerabilityDisclosure
+  url: https://sycamore.so/policies/bug-bounty/
+- type: Security
+  url: https://sycamore.so/policies/bug-bounty/
+- type: PrivacyPolicy
+  url: https://sycamore.so/policies/privacy/
+- type: TermsOfService
+  url: https://sycamore.so/policies/terms/
+- type: DomainSecurity
+  url: security/sycamore-domain-security.yml
+- type: WellKnown
+  url: well-known/sycamore-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
