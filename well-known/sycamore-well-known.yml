@@ -2,18 +2,24 @@ generated: '2026-07-21'
 method: searched
 source: live probes of https://sycamore.so/.well-known/*
 host: https://sycamore.so
-documents:
-- path: /.well-known/security.txt
-  status: 404
-- path: /.well-known/openid-configuration
-  status: 404
-- path: /.well-known/oauth-authorization-server
-  status: 404
-- path: /.well-known/api-catalog
-  status: 404
-- path: /.well-known/ai-plugin.json
-  status: 404
-notes: >-
-  No .well-known discovery documents are published. Sycamore is pre-product with
-  no public API/OAuth surface as of this probe. A machine-readable llms.txt is
-  published at https://sycamore.so/llms.txt (captured in llms/sycamore-llms.txt).
+notes: No .well-known discovery documents are published. Sycamore is pre-product with no public API/OAuth
+  surface as of this probe. A machine-readable llms.txt is published at https://sycamore.so/llms.txt (captured
+  in llms/sycamore-llms.txt).
+hosts:
+- host: https://sycamore.so
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
